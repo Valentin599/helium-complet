@@ -112,3 +112,118 @@ footer {
 .img-container img {
   height: 70px;
 }
+
+/* Styles pour les tailles d'écran jusqu'à 1024px */
+@media screen and (max-width: 1024px) {
+
+  /* Réduction du padding pour tous les éléments */
+  * {
+    padding: 7px;
+  }
+
+  /* Réduction de la taille de la police pour la barre de navigation */
+  nav {
+    font-size: 1.5rem;
+  }
+
+  /* Réduction de la taille de la police pour le titre de la section */
+  .section-left-container h1 {
+    font-size: 3rem;
+  }
+
+  /* Réduction de la taille de la police pour le sous-titre de la section */
+  .section-left-container h3 {
+    font-size: 1.3rem;
+  }
+
+  /* Réduction de la taille de la police pour le paragraphe de la section */
+  .section-left-container p {
+    font-size: 0.9rem;
+  }
+
+  /* Ajustement de la largeur de la colonne de gauche du pied de page */
+  .footer-left {
+    width: 100%;
+  }
+
+  /* Ajustement de la largeur de la colonne de gauche du pied de page à 100% */
+  .footer-left-container {
+    width: 100%;
+  }
+
+  /* Ajustement de la taille de la police pour les liens dans le pied de page */
+  .btn-container a {
+    font-size: 0.9rem;
+    padding: 10px 35px;
+  }
+}
+
+/* Styles pour les tailles d'écran jusqu'à 430px */
+@media screen and (max-width: 430px) {
+
+  /* Réduction de la taille de la police pour la barre de navigation */
+  nav {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  /* Ajustement de la marge à droite pour les éléments de la liste de la barre de navigation */
+  nav ul li {
+    margin-right: 5px;
+  }
+
+  /* Changement de la disposition de la section en bloc */
+  section {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  /* Réduction de la taille de la police pour le titre de la section */
+  .section-left-container h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Réduction de la taille de la police pour le sous-titre de la section */
+  .section-left-container h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Réduction de la taille de la police pour le paragraphe de la section */
+  .section-left-container p {
+    font-size: 0.8rem;
+  }
+
+  /* Ajustement de la largeur de la colonne de droite de la section */
+  .section-right {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Changement de la disposition du pied de page en bloc */
+  footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Ajustement de la largeur de la zone des boutons du pied de page */
+  .btn-container {
+    width: 100%;
+  }
+
+  /* Ajustement de la largeur des liens dans la zone des boutons du pied de page */
+  .btn-container a {
+    width: 60%;
+    margin: 5px auto;
+  }
+
+  /* Réduction de la hauteur de la zone des images dans le pied de page */
+  .img-container {
+    height: 100px;
+  }
+
+  /* Réduction de la hauteur des images dans la zone des images dans le pied de page */
+  .img-container img {
+    height: 50px;
+  }
+}
